@@ -153,5 +153,46 @@ footer {
 .size:hover {
     background-color: #f0f0f0;
 }
+/* Estilos generales para pantallas pequeñas (móviles) */
+@media (max-width: 949px) {
+    .section-titles {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-hombres, .title-mujeres {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .product-container {
+        width: 100%; /* Hace que los productos ocupen el ancho completo de la pantalla */
+        margin-bottom: 20px; /* Espacio entre los productos */
+    }
+
+    .image-container {
+        height: 300px; /* Ajusta el tamaño de las imágenes para pantallas más pequeñas */
+    }
+
+    .sizes {
+        justify-content: center;
+        gap: 5px; /* Menor espacio entre las tallas */
+        margin-top: 5px;
+    }
+
+    .size {
+        padding: 5px;
+    }
+
+    /* Ajustar el pie de página */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
 
 
