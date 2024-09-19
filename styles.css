@@ -293,12 +293,24 @@ footer {
     transform: scale(1.1);
 }
 
-/* Media queries para dispositivos móviles */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 20px; /* Tamaño de fuente más pequeño para móviles */
-    }
-
+/* Estilo para pantallas grandes, como computadoras */
+@media screen and (min-width: 768px) {
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    font-size: 20px;
+  }
+/* Estilo para pantallas pequeñas, como móviles */
+@media screen and (max-width: 767px) {
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    font-size: 14px;
+  }
     .categories h2 {
         font-size: 18px; /* Ajustar el tamaño del texto de categorías */
     }
