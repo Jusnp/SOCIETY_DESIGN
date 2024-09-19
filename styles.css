@@ -301,7 +301,8 @@ footer {
   }
   .text {
     font-size: 20px;
-  }
+     }
+}
 /* Estilo para pantallas pequeñas, como móviles */
 @media screen and (max-width: 767px) {
   .image {
@@ -310,7 +311,8 @@ footer {
   }
   .text {
     font-size: 14px;
-  }
+    }
+}
     .categories h2 {
         font-size: 18px; /* Ajustar el tamaño del texto de categorías */
     }
@@ -343,46 +345,5 @@ footer {
     .social-icon {
         width: 30px; /* Tamaño más pequeño de los iconos sociales en móviles */
         height: 30px;
-    }
-}
-
-/* Media queries para tabletas */
-@media (min-width: 768px) and (max-width: 1024px) {
-    h1 {
-        font-size: 28px;
-    }
-
-    .categories h2 {
-        font-size: 22px;
-    }
-
-    .product-container {
-        width: 45%; /* Dos productos por fila en pantallas de tabletas */
-        margin-bottom: 20px;
-    }
-
-    .image-container {
-        height: 300px;
-    }
-
-    .sizes {
-        gap: 8px;
-    }
-
-    footer {
-        padding: 15px 0;
-    }
-
-    .footer-content h3 {
-        font-size: 22px;
-    }
-
-    .social-links {
-        gap: 15px;
-    }
-
-    .social-icon {
-        width: 35px;
-        height: 35px;
     }
 }
