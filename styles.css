@@ -153,3 +153,224 @@ footer {
 .size:hover {
     background-color: #f0f0f0;
 }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* Centrar la palabra Society */
+h1 {
+    font-size: 24px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Categorías (Hombres y Mujeres) */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.categories h2 {
+    font-style: italic;
+    margin: 0;
+}
+
+/* Productos */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-container {
+    width: 100%; /* Hace que los productos se ajusten a pantallas pequeñas */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajustar según sea necesario para pantallas más pequeñas */
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+
+.back-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.image-container:hover .back-image {
+    opacity: 1;
+}
+
+.image-container:hover .front-image {
+    opacity: 0;
+}
+
+/* Estilo para las tallas */
+.sizes {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.size {
+    border: 1px solid #000;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.size:hover {
+    background-color: #f0f0f0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px; /* Tamaño de fuente más pequeño para móviles */
+    }
+
+    .categories h2 {
+        font-size: 18px; /* Ajustar el tamaño del texto de categorías */
+    }
+
+    .product-container {
+        width: 90%; /* Hace que los productos tomen casi todo el ancho del móvil */
+        margin-bottom: 20px;
+    }
+
+    .image-container {
+        height: 250px; /* Disminuir la altura de las imágenes para móviles */
+    }
+
+    .sizes {
+        gap: 5px; /* Menos espacio entre las tallas en móviles */
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-content h3 {
+        font-size: 20px;
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+
+    .social-icon {
+        width: 30px; /* Tamaño más pequeño de los iconos sociales en móviles */
+        height: 30px;
+    }
+}
+
+/* Media queries para tabletas */
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .categories h2 {
+        font-size: 22px;
+    }
+
+    .product-container {
+        width: 45%; /* Dos productos por fila en pantallas de tabletas */
+        margin-bottom: 20px;
+    }
+
+    .image-container {
+        height: 300px;
+    }
+
+    .sizes {
+        gap: 8px;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    .footer-content h3 {
+        font-size: 22px;
+    }
+
+    .social-links {
+        gap: 15px;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
