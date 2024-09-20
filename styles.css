@@ -187,7 +187,7 @@ footer {
     }
 
     .product {
-        width: 90%; /* Hacer los productos más anchos en móviles */
+        width: 70%; /* Hacer los productos más anchos en móviles */
         margin: 10px 0;
     }
 
