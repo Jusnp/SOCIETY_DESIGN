@@ -884,13 +884,13 @@ grid.addEventListener(
 
         const message =
 
-`Hola SOCIETY ðŸ‘‹
+`Hola SOCIETY 👋
 
 Estoy interesado(a) en esta prenda:
 
-â€¢ Producto: ${product.name}
-â€¢ Código: ${code}
-â€¢ Talla: ${selectedSize.dataset.size}
+• Producto: ${product.name}
+• Código: ${code}
+• Talla: ${selectedSize.dataset.size}
 
 ¿Me confirmas precio y disponibilidad?`;
 
