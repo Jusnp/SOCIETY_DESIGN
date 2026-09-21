@@ -1,0 +1,36 @@
+SOCIETY DESIGN - CATALOGO COMPLETO
+==================================
+
+TECNOLOGIAS
+- HTML5
+- CSS3
+- JavaScript puro
+- No necesita XAMPP, Laragon ni base de datos.
+
+COMO ABRIRLO
+1. Abre esta carpeta.
+2. Haz doble clic en index.html.
+3. Se abrirá en Chrome, Edge, Opera u otro navegador.
+
+FUNCIONES
+- Diseño adaptable a PC, tablet y celular.
+- Animaciones de entrada.
+- Filtros Todos / Hombre / Mujer.
+- Cambio frente/atrás al pasar el mouse.
+- En celular se puede tocar la imagen para cambiar frente/atrás.
+- Selección de talla.
+- Consulta por WhatsApp con nombre, código y talla seleccionada.
+- Botón flotante de WhatsApp.
+- Enlace a Instagram.
+
+PRODUCTOS
+Las imágenes nuevas fueron incorporadas al catálogo. El listado se administra en:
+assets/js/app.js
+
+IMPORTANTE
+Los precios siguen como "Consultar precio" porque no se suministraron precios reales.
+Los nombres de producto son nombres descriptivos y pueden cambiarse en assets/js/app.js.
+
+WHATSAPP
+El número actual configurado es 57 321 686 0632.
+Para cambiarlo, modifica WHATSAPP_NUMBER al inicio de assets/js/app.js y los enlaces wa.me de index.html.
