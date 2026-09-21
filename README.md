@@ -1,1 +1,0 @@
-# SOCIETY_DESIGN
