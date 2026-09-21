@@ -1,5 +1,5 @@
-/* =========================================================
-   CONFIGURACIÓN
+﻿/* =========================================================
+   CONFIGURACIÃ“N
 ========================================================= */
 
 const WHATSAPP_NUMBER = "573216860632";
@@ -660,7 +660,7 @@ document
 
 
 /* =========================================================
-   CAMBIAR FOTO FRENTE / ATRÁS
+   CAMBIAR FOTO FRENTE / ATRÃS
 ========================================================= */
 
 function toggleProductImage(
@@ -884,15 +884,15 @@ grid.addEventListener(
 
         const message =
 
-`Hola SOCIETY 👋
+`Hola SOCIETY ðŸ‘‹
 
 Estoy interesado(a) en esta prenda:
 
-• Producto: ${product.name}
-• Código: ${code}
-• Talla: ${selectedSize.dataset.size}
+â€¢ Producto: ${product.name}
+â€¢ Código: ${code}
+â€¢ Talla: ${selectedSize.dataset.size}
 
-¿Me confirmas precio y disponibilidad?`;
+Â¿Me confirmas precio y disponibilidad?`;
 
 
         const url =
@@ -916,7 +916,7 @@ Estoy interesado(a) en esta prenda:
 
 
 /* =========================================================
-   TECLADO FRENTE / ATRÁS
+   TECLADO FRENTE / ATRÃS
 ========================================================= */
 
 grid.addEventListener(
@@ -1000,7 +1000,7 @@ window.addEventListener(
 
 
 /* =========================================================
-   MENÚ CELULAR
+   MENÃš CELULAR
 ========================================================= */
 
 const menuToggle =
@@ -1070,7 +1070,7 @@ menuToggle.addEventListener(
 
 
 /* =========================================================
-   CERRAR MENÚ AL ENTRAR A UNA SECCIÓN
+   CERRAR MENÃš AL ENTRAR A UNA SECCIÃ“N
 ========================================================= */
 
 navLinks
@@ -1119,7 +1119,7 @@ navLinks
 
 
 /* =========================================================
-   AÑO AUTOMÁTICO
+   AÃ‘O AUTOMÃTICO
 ========================================================= */
 
 document.getElementById(
