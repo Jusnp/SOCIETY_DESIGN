@@ -1,5 +1,5 @@
-﻿/* =========================================================
-   CONFIGURACIÃ“N
+/* =========================================================
+   CONFIGURACIÓN
 ========================================================= */
 
 const WHATSAPP_NUMBER = "573216860632";
@@ -660,7 +660,7 @@ document
 
 
 /* =========================================================
-   CAMBIAR FOTO FRENTE / ATRÃS
+   CAMBIAR FOTO FRENTE / ATRÁS
 ========================================================= */
 
 function toggleProductImage(
@@ -892,7 +892,7 @@ Estoy interesado(a) en esta prenda:
 â€¢ Código: ${code}
 â€¢ Talla: ${selectedSize.dataset.size}
 
-Â¿Me confirmas precio y disponibilidad?`;
+¿Me confirmas precio y disponibilidad?`;
 
 
         const url =
@@ -916,7 +916,7 @@ Estoy interesado(a) en esta prenda:
 
 
 /* =========================================================
-   TECLADO FRENTE / ATRÃS
+   TECLADO FRENTE / ATRÁS
 ========================================================= */
 
 grid.addEventListener(
@@ -1000,7 +1000,7 @@ window.addEventListener(
 
 
 /* =========================================================
-   MENÃš CELULAR
+   MENÚ CELULAR
 ========================================================= */
 
 const menuToggle =
@@ -1070,7 +1070,7 @@ menuToggle.addEventListener(
 
 
 /* =========================================================
-   CERRAR MENÃš AL ENTRAR A UNA SECCIÃ“N
+   CERRAR MENÚ AL ENTRAR A UNA SECCIÓN
 ========================================================= */
 
 navLinks
@@ -1119,7 +1119,7 @@ navLinks
 
 
 /* =========================================================
-   AÃ‘O AUTOMÃTICO
+   AÑO AUTOMÁTICO
 ========================================================= */
 
 document.getElementById(
